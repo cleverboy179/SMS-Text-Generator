@@ -1,0 +1,50 @@
+@font-face {
+    font-family: sans;
+    src: url('../fonts/Sans.ttf');
+    src: url('../fonts/Sans.woff');
+}
+
+
+body {
+  font-family: sans;
+  color: #000000;
+  font-weight: 300;
+  direction: rtl;
+  text-align : right;
+}
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: white;
+  font-weight: 300;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: white;
+  font-weight: 300;
+}
+.wrapper{
+  margin-top: 200px;
+}
+.chosen-single {
+    height: calc(2.25rem + 2px) !important;
+}
+
+.chosen-single span{
+  margin-top: 8px !important;
+  margin-right: 15px !important;
+}
+.required{
+  color: red;
+}
